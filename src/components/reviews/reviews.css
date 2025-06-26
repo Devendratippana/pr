@@ -1,0 +1,38 @@
+.success-container{
+    padding-top: 20px;
+    
+}
+.review-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.success-card{
+    border: 1px solid black;
+    border-radius:15px ;
+    padding: 20px;
+    margin: 20px;
+}
+h3{
+    text-align: center;
+    font-size: 30px;
+}
+.stars{
+    height: 40px;
+    margin-right:10px;
+}
+.person {
+    height: 80px;
+    width: 80px;
+    margin-right: 20px;
+
+}
+.down-part{
+    display: flex;
+}
+.down-text{
+    padding-top: 8px;
+}
+.down-text p{
+    font-size: 18px;
+}

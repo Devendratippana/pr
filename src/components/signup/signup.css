@@ -1,0 +1,197 @@
+.sign-up-container{
+    background: #5264d9;
+background: linear-gradient(273deg, rgba(82, 100, 217, 1) 17%, rgba(222, 60, 168, 0.68) 100%);
+padding-bottom: 30px;
+}
+
+.form-container{
+margin-left: 10px;
+padding-left: 10px;
+}
+.arrow-text{
+    background-color: #9B5278;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+    border: none;
+    color: white;
+    font-weight: 900;
+}
+.custom-shape-divider-top-1750777592 {
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1750777592 svg {
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 50px;
+}
+
+.custom-shape-divider-top-1750777592 .shape-fill {
+    fill: #9B5278;
+}
+.input-form{
+    background-color: white;
+    margin-top: 40px;
+    padding-right: 30px;
+    margin-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px gray;
+
+}
+.input-form input{
+    background-color: transparent;
+    color:black;
+    border: none;
+    border-bottom: 1px solid black ;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    height: 30px;
+    width: 100%;
+}
+
+input::placeholder{
+    color:black;
+    font-size: 12px;
+    opacity: 1;
+    padding-left: 5px;
+}
+input::placeholder:hover{
+    margin-bottom: 2px;
+    color: gray;
+}
+input:hover{
+    border: none;
+}
+label{
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.input-form p{
+    color:white;
+}
+.signup-btn{
+    width: 100%;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background: #5264d9;
+background: linear-gradient(273deg, rgba(82, 100, 217, 1) 17%, rgba(222, 60, 168, 0.68) 100%);
+
+}
+.btn-el{
+    display: flex;
+    justify-content: center;
+}
+.button-element{
+    display: flex;
+    justify-content: center;
+}
+
+.about-us h2{
+        text-align: center;
+        font-size: 50px;
+        color:rgb(71, 214, 71);
+        font-weight: 900;
+        padding-bottom: 30px;
+    }
+    .about-us h4{
+        text-align: justify;
+        text-justify: inter-word;
+        color:white;
+        font-size: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .button-element button{
+        background-color: rgb(255, 0, 212);
+    }
+
+/* @keyframes appear {
+    from{
+        opacity: 0;
+        scale:0.5;
+        transform: translateX(-200px);
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+        transform: translateX(0px);
+    }
+}
+.input-form{
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 10% cover 50%;
+    animation-delay: 1s;
+    animation-duration: 5s;
+    transform: 1s;
+} */
+@media (min-width:900px) {
+    .form-container{
+        display: flex;
+        padding-left: 200px;
+    }
+    .input-form{
+        width: 200px;
+        padding-top: 30px;
+        padding-left: 30px;
+        padding-bottom: 30px;
+        padding-right: 50px;
+        border: none;
+    }
+    .input-form h1{
+        text-align: center;
+    }
+    .arrow-text{
+        height: 50px;
+        padding-top: 20px;
+    }  
+    .input-form button{
+        margin-top: 20px;
+    }
+    .second-fold{
+        display: flex;
+    }
+    .about-us{
+        display: block;
+        padding-left: 150px;
+        padding-right: 200px;
+        text-align: left;
+        padding-top: 30px;
+        font-weight: 500;
+
+    }
+    .button-element{
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+        margin-bottom: 10px;
+    }
+    .about-us h2{
+        text-align: center;
+        font-size: 30px;
+        color:rgb(71, 214, 71);
+        font-weight: 900;
+    }
+    .about-us h4{
+        text-align: justify;
+        text-justify: inter-word;
+        padding-top: 20px;
+        font-size: 24px;
+    }
+    .button-element button{
+        background: #5264d9;
+background: linear-gradient(273deg, rgba(82, 100, 217, 1) 17%, rgba(222, 60, 168, 0.68) 100%);
+width: 200px;
+    }
+    
+}
