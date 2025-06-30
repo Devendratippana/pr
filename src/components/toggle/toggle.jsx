@@ -23,8 +23,8 @@ const ToggleSwitch = () => {
   return (
     <label className={`switch`}>
       <input type="checkbox" checked={isOn} onChange={toggleHandler} />
-      <span className={`slider round ${isOn ? 'on' : 'off'}`}>
-        {isOn ? 'ON' : ' OFF'}
+      <span className={`slider round  ${isOn ? 'on' : 'off'}`}>
+        {isOn ? 'ON' : 'OFF'}
       </span>
     </label>
   );

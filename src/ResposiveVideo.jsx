@@ -54,10 +54,11 @@ const ResponsiveVideo = () => {
     <div style={{ position: 'relative', width: '100%', maxWidth: '720px', margin: 'auto' }}>
       <video
         ref={videoRef}
+        preload='metadatas'
         controls = {showControls}
         style={{ width: '100%', borderRadius: '8px', display: 'block' }}
       >
-        <source src="/The Future of Artificial Intelligence (Animated).mp4" type="video/mp4" />
+        <source src="/AI Wealth Profit - Automated Income Generation.mp4" type="video/mp4" />
       </video>
 
       {/* Unmute overlay (initial only) */}

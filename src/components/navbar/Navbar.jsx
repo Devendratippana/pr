@@ -16,7 +16,12 @@ const Navbar = () => {
         </div>
         <div className="img-section">
             <div>
-                <button>
+                <button onClick={() => {
+    const el = document.getElementById("form-element");
+    if (el) {
+      el.scrollIntoView({ behavior: "smooth" });
+    }
+  }}>
                     Join Us Today
                 </button>
             </div>

@@ -1,5 +1,7 @@
 
 import './App.css'
+
+import Des from './components/choose us/Des'
 import FAQSection from './components/FAQsection/Faq'
 import Footer from './components/footer/Footer'
 import Gurantee from './components/guarantee/Gurantee'
@@ -17,9 +19,9 @@ function App() {
         <FAQSection/>
         <Signup/>
         <Reviews/>
+        <Des/>
         <Footer/>
       </div>
-   
   )
 }
 

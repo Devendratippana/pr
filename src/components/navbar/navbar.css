@@ -36,11 +36,11 @@
 button{
     border: none;
     color: aliceblue;
-    background-color: #04bf2f;
+    background-color: #ff9705;
     padding: 6px;
+    margin-top: 10px;
     padding-left: 6px;
-    margin: 5px;
-    height:50px;
+    height:40px;
     border-radius: 5px;
 }
 .list-items{

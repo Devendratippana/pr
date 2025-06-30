@@ -4,41 +4,22 @@ import './footer.css'
 const Footer = () => {
   return (
     <div className='footer-section'>
-        <div className='top-part'>
-            <div className='logo'>
-                <img src="/memory_80dp_9B5278_FILL0_wght400_GRAD0_opsz48.svg" alt="logo" />
-                <div className='text'>
-                    <h3>AI Wealth Profit</h3>
-                    <p className='text-p'>Automatical income Generation</p>
-                </div>
-            </div>
-            <div className='legal'>
-                <h3>Legal</h3>
-                <p>Terms&conditions</p>
-                <p>privacy  policy</p>
-                <p>Earnings Disclaimer</p>
-                <p>Refund Policy</p>
-            </div>
-            <div className='support'>
-                <h3>Support</h3>
-                <p>Contact us</p>
-                <p>FAQ</p>
-                <p>HELP Center</p>
 
-            </div>
-        </div>
         <div className='bottom-part'>
             <div className='rights'>
                &#169; 2025 AI Weath Profit .All rights reserved
             </div>
             <div className='terms'>
-                <p>Support</p>
                 <p>Terms</p>
                 <p>Privacy</p>
+                <p>Cookies</p>
             </div>
-        <p className='statement'>
-            AI Creators Cashflow provides educational resources and tools to support creators in leveraging AI technologies for income generation. Results may vary based on individual effort and application.
-            </p>
+        <h5 className='statement'>
+           EARNINGS DISCLAIMER: Any earnings or income statements, or earnings or income examples, are only estimates of what we think you could earn. There is no assurance you'll do as well. Your results will vary and depend on many factors, including but not limited to your background, experience, and work ethic.
+            </h5>
+        <h5 className='statement'>
+            This site is not a part of the Facebook website or Facebook Inc. Additionally, this site is NOT endorsed by Facebook in any way. FACEBOOK is a trademark of FACEBOOK,Inc.
+        </h5>
         </div>
       
     </div>

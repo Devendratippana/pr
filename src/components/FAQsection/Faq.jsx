@@ -39,6 +39,68 @@ const FAQSection = () => {
           ))}
         </div>
       </div>
+      <div className='reviews-list'>
+         <div className='success-card'>
+        {/* <div className='stars'>
+          <img className='star' src="/star_rate_38dp_FFFF55_FILL1_wght400_GRAD0_opsz40.svg"/>
+          <img className='star' src="/star_rate_38dp_FFFF55_FILL1_wght400_GRAD0_opsz40.svg"/>
+          <img className='star' src="/star_rate_38dp_FFFF55_FILL1_wght400_GRAD0_opsz40.svg"/>
+          <img className='star' src="/star_rate_38dp_FFFF55_FILL1_wght400_GRAD0_opsz40.svg"/>
+          <img className='star' src="/star_rate_38dp_FFFF55_FILL1_wght400_GRAD0_opsz40.svg"/>
+          </div> */} 
+        <div className='down-part'>
+          <div>
+           <img className='person-1' src="/review-cas-1.jpg" alt="Michael S"/>
+           </div>
+           <div className='down-text'>
+             <h1>Michael S</h1>
+            <p>Real estate Agent</p>
+             <p>AI Profit Machine boosted my income by $8,200 in weeks! </p> 
+
+           </div>
+        </div>
+        </div>
+         <div className='success-card'>
+        {/* <div className='stars'>
+          <img className='star' src="/star_rate_38dp_FFFF55_FILL1_wght400_GRAD0_opsz40.svg"/>
+          <img className='star' src="/star_rate_38dp_FFFF55_FILL1_wght400_GRAD0_opsz40.svg"/>
+          <img className='star' src="/star_rate_38dp_FFFF55_FILL1_wght400_GRAD0_opsz40.svg"/>
+          <img className='star' src="/star_rate_38dp_FFFF55_FILL1_wght400_GRAD0_opsz40.svg"/>
+          <img className='star' src="/star_rate_38dp_FFFF55_FILL1_wght400_GRAD0_opsz40.svg"/>
+          </div> */}  
+      <div className='down-part'>
+        <div>
+            <img className='person-1' src="/review-cas-2.jpg" alt="Sarah L"/>
+        </div>
+        <div className='down-text'>
+            <h2>Hossein Gholami</h2>
+            <p>Digital Marketer</p>
+            <p>Earned $5,500 extra last month — best AI tool ever! </p>
+        </div>
+      </div>
+      </div>
+
+      <div className='success-card'>
+        {/* <div className='stars'>
+          <img className='star' src="/star_rate_38dp_FFFF55_FILL1_wght400_GRAD0_opsz40.svg"/>
+          <img className='star' src="/star_rate_38dp_FFFF55_FILL1_wght400_GRAD0_opsz40.svg"/>
+          <img className='star' src="/star_rate_38dp_FFFF55_FILL1_wght400_GRAD0_opsz40.svg"/>
+          <img className='star' src="/star_rate_38dp_FFFF55_FILL1_wght400_GRAD0_opsz40.svg"/>
+          <img className='star' src="/star_rate_38dp_FFFF55_FILL1_wght400_GRAD0_opsz40.svg"/>
+          </div>  */}
+      <div className='down-part'>
+        <div>
+            <img className='person-1' src="/review-cas-3.jpg" alt="David"/>
+        </div>
+        <div className='down-text'>
+            <h2>David R</h2>
+            <p>Business Consultant</p>
+             <p>I Made $12,000 profit fast, thanks to this amazing AI! </p> 
+        </div>
+      </div>
+      </div>
+
+      </div>
     </div>
   );
 };

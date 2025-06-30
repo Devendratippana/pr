@@ -1,6 +1,6 @@
 .sign-up-container{
-    background: #5264d9;
-background: linear-gradient(273deg, rgba(82, 100, 217, 1) 17%, rgba(222, 60, 168, 0.68) 100%);
+  background: #b8b854;
+background: radial-gradient(circle, rgba(184, 184, 84, 1) 0%, rgba(255, 185, 8, 1) 18%);
 padding-bottom: 30px;
 }
 
@@ -9,10 +9,10 @@ margin-left: 10px;
 padding-left: 10px;
 }
 .arrow-text{
-    background-color: #9B5278;
+    background-color: black;
     text-align: center;
     font-size: 25px;
-    padding-top: 10px;
+    padding-top: 30px;
     border: none;
     color: white;
     font-weight: 900;
@@ -32,7 +32,7 @@ padding-left: 10px;
 }
 
 .custom-shape-divider-top-1750777592 .shape-fill {
-    fill: #9B5278;
+    fill: black;
 }
 .input-form{
     background-color: white;
@@ -55,6 +55,9 @@ padding-left: 10px;
     margin-left: 10px;
     height: 30px;
     width: 100%;
+}
+h4{
+    text-align: center;
 }
 
 input::placeholder{
@@ -95,18 +98,21 @@ background: linear-gradient(273deg, rgba(82, 100, 217, 1) 17%, rgba(222, 60, 168
     display: flex;
     justify-content: center;
 }
+.button-element button{
+    width: 200px;
+}
 
-.about-us h2{
+.about-us .h2{
         text-align: center;
-        font-size: 50px;
-        color:rgb(71, 214, 71);
+        font-size: 30px;
+        color:black;
         font-weight: 900;
         padding-bottom: 30px;
     }
     .about-us h4{
         text-align: justify;
         text-justify: inter-word;
-        color:white;
+        color:black;
         font-size: 20px;
         padding-left: 40px;
         padding-right: 40px;
@@ -141,7 +147,7 @@ background: linear-gradient(273deg, rgba(82, 100, 217, 1) 17%, rgba(222, 60, 168
         padding-left: 200px;
     }
     .input-form{
-        width: 200px;
+        width: 350px;
         padding-top: 30px;
         padding-left: 30px;
         padding-bottom: 30px;
@@ -153,7 +159,7 @@ background: linear-gradient(273deg, rgba(82, 100, 217, 1) 17%, rgba(222, 60, 168
     }
     .arrow-text{
         height: 50px;
-        padding-top: 20px;
+        padding-top: 50px;
     }  
     .input-form button{
         margin-top: 20px;
@@ -163,18 +169,12 @@ background: linear-gradient(273deg, rgba(82, 100, 217, 1) 17%, rgba(222, 60, 168
     }
     .about-us{
         display: block;
-        padding-left: 150px;
+        padding-left: 30px;
         padding-right: 200px;
         text-align: left;
         padding-top: 30px;
         font-weight: 500;
 
-    }
-    .button-element{
-        display: flex;
-        justify-content: center;
-        padding-top: 10px;
-        margin-bottom: 10px;
     }
     .about-us h2{
         text-align: center;
@@ -185,7 +185,7 @@ background: linear-gradient(273deg, rgba(82, 100, 217, 1) 17%, rgba(222, 60, 168
     .about-us h4{
         text-align: justify;
         text-justify: inter-word;
-        padding-top: 20px;
+        padding-top: 0px;
         font-size: 24px;
     }
     .button-element button{

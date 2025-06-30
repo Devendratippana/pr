@@ -3,18 +3,21 @@
     padding-top: 20px;
     padding-right: 10px;
     text-align: center;
-    background-color: rgb(238, 240, 240);
 }
 .gurantee-container h1{
-    color: rgb(71, 214, 71);
-    font-size: 30px;
-    font-weight: 800;
+    color: rgb(49, 155, 203);
+    font-family: "Roboto slab";
+    font-size: 34px;
+    font-weight: 900;
     margin-bottom: 10px;
 }
 .gurantee-container p{
     margin-top: 10px;
     font-size: 20px;
     font-weight: 400;
+    text-align: justify;
+    padding-left: 30px;
+    padding-right: 30px;
     margin-bottom: 10px;
 
 }
@@ -29,7 +32,21 @@
         padding-right: 230px;
     }
     .gurantee-container p{
-        padding-top: 30px;
+        padding-top: 10px;
     }
-    
+    .gurantee-container{
+    }
+    .gurantee-container p{
+        font-size: 30px;
+        margin-top: 10px;
+        margin-left: 40px;
+    }
+    .text-container{
+        display: flex;
+        font-size: 30px;
+        margin-bottom: 30px;
+    }  
+    .text-container img{
+        height: 300px;
+    }
 }

@@ -1,16 +1,14 @@
 .faq-container {
-    background: #afccc1;
-background: radial-gradient(circle, rgba(175, 204, 193, 1) 0%, rgba(28, 201, 86, 1) 100%);
+   background: #b8b854;
+background: radial-gradient(circle, rgba(184, 184, 84, 1) 0%, rgba(255, 185, 8, 1) 18%);;
   display: flex;
-  justify-content: center;
-  align-items: center;
   padding: 20px;
 }
 
 .faq-box {
   background-color: white;
   max-width: 700px;
-  width: 100%;
+  width: 400px;
   border-radius: 20px;
   box-shadow: 0 4px 20px rgba(0,0,0,0.15);
   padding: 30px;
@@ -21,6 +19,9 @@ background: radial-gradient(circle, rgba(175, 204, 193, 1) 0%, rgba(28, 201, 86,
   font-size: 28px;
   font-weight: bold;
   margin-bottom: 20px;
+}
+.reviews-list{
+  display: none;
 }
 
 .faq-title span {
@@ -38,7 +39,6 @@ background: radial-gradient(circle, rgba(175, 204, 193, 1) 0%, rgba(28, 201, 86,
   border-radius: 10px;
   overflow: hidden;
 }
-
 .faq-question {
   width: 100%;
   background: none;
@@ -59,7 +59,7 @@ background: radial-gradient(circle, rgba(175, 204, 193, 1) 0%, rgba(28, 201, 86,
 }
 
 .arrow {
-  transition: transform 0.3s ease;
+  transition: transform 0.8s ease;
 }
 
 .rotate {
@@ -71,7 +71,7 @@ background: radial-gradient(circle, rgba(175, 204, 193, 1) 0%, rgba(28, 201, 86,
   padding: 16px;
   font-size: 15px;
   color: #0a0909;
-  transition: all 0.3s ease;
+  transition: all 1s ease;
 }
 
 @keyframes appear {
@@ -91,9 +91,27 @@ background: radial-gradient(circle, rgba(175, 204, 193, 1) 0%, rgba(28, 201, 86,
     animation-range: entry 0% cover 30%;
 }
 
+
+
+
 @media (min-width:900px){
     .faq-question{
         color: #000;
+    }
+    .faq-container{
+      padding-left: 230px;
+      padding-right: 230px;
+    }
+    .person-1{
+      height: 100px;
+      width: 100px;
+      border-radius: 50px;
+      margin-top: 18px;
+      margin-right: 20px;
+    }
+    .reviews-list{
+      display: block;
+      margin-left:100px ;
     }
     
 }
